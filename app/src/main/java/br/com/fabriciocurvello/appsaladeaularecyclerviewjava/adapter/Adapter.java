@@ -36,6 +36,7 @@ public class Adapter extends RecyclerView.Adapter<Adapter.MyViewHolder> {
         Disciplina d = listaDisciplinas.get( position );
         holder.disciplina.setText( d.getNomeDisciplina() );
         holder.professor.setText( d.getProfessor() );
+        holder.diaSemana.setText( d.getDiaSemana() );
         holder.sala.setText( d.getSala() );
     }
 
